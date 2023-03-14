@@ -80,7 +80,7 @@ def start_webhook():
     parser.add_argument(
         "-t", "--token", help="Machine Authentication Token for the Covigilance API, defaults to the COVIGILANCE_TOKEN from the environment", required=False)
     parser.add_argument("-e", "--endpoint",
-                        default="https://api-staging.covigilance.ai",
+                        default="https://api.covigilance.ai",
                         help="Endpoint of the Covigilance Backend")
     parser.add_argument("--url", required=True,
                         help="Public URL this services under which this service can be reached.")
