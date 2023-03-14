@@ -7,7 +7,7 @@ The python implementation provides you with 5 modules to call the different endp
 We provide the executable `covigilance-api` to call the different methods of the API directly
 
 * `./covigilance-api abstracts [FILENAME]`
-* `./covigilance-api file [FILE OR PATH]`
+* `./covigilance-api fulltext --product PRODUCT [FILE OR PATH]`
 * `./covigilance-api feedback [FILENAME]`
 * `./covigilance-api webhook --port [LOCAL PORT] --url [PUBLIC URL]`
 
@@ -29,6 +29,8 @@ IDs will be based on the folder and the filename, if nothing else is provided.
 ### Feedback
 
 The implementation allows to update a single or multiple predictions made by the AI.
+
+*NOT YET IMPLMEMENTED*
 
 ### Webhook
 
