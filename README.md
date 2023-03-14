@@ -6,6 +6,9 @@ The code includes different calls that allow you to retrieve and process data fr
 
 This starter code can help you quickly get started with integrating Covigilance.ai's powerful monitoring capabilities into your own application. Currently we provide an implementation in Python and looking to include more languages in the future.
 
+
+If you want to write your own integration, check out the API documentation at [https://api.covigilance.ai/documentation].
+
 We hope you find this repository helpful and welcome any feedback or contributions from the community.
 
 ## Authentication
